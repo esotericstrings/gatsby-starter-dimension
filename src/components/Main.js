@@ -92,17 +92,18 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">About</h2>
-          <span className="image main">
-            <img src={pic03} alt="" />
-          </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            I’m a self-taught developer with a passion for information and functional design.
+            I took up web development in order to help learn how to push the boundaries of data visualization for my college newspaper and discovered a love of programming along the way. 
+            <br/>
+            <br/>
+            I’ve learned a lot from online resources and years of professional work on web development, quality engineering, and automation engineering on Wordpress, Magento, Shopify, and AEM. 
+            <br/>
+            <br/>
+            I'm currently working through a B.S. of Computer Science at WGU, but I'm a passionate lifelong learner and creator. The web is a powerful tool for people to connect with the world and empower themselves, and I'm honored to play a part in that.
+            <br/>
+            <br/>
+            Aside from coding, I love dogs, musicals, illustrations, data visualization and in depth journalism.
           </p>
           {close}
         </article>
@@ -115,50 +116,33 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
+          <p>A peaceful observer of the world. <br/> 
+          I don't have much to share here, but I'd love to listen. <br/>
+          Let's chat!</p>
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="mailto:esotericstrings@gmail.com"
+                className="icon fa-envelope"
+              >
+                <span className="label">Email</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/esotericstrings"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://github.com/esotericstrings"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
