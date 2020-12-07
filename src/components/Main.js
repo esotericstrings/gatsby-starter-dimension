@@ -1,8 +1,10 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import acrobatadobe from '../images/acrobatadobe.jpg'
+import heartlandshops from '../images/heartlandshops.jpg'
+import kavencore from '../images/kavencore.jpg'
+import hegenppsu from '../images/hegenppsu.jpg'
 
 class Main extends React.Component {
   render() {
@@ -63,23 +65,77 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Work</h2>
+          <p>I've learned a lot from years of professional work experience in the web field. I'm confident in my ability pick up new languages, tackle new challenges, and serve in a variety of roles as needed to best support my team.</p>
+          <p>Here's a highlight of a few of the varied projects I've worked on throughout my career:</p>
+          <h3>Kav Encore - Wordpress</h3>
           <span className="image main">
-            <img src={pic02} alt="" />
+          <a href="https://www.kavencore.com/" target="_blank" rel="noreferrer noopener">
+            <img src={kavencore} alt="Kav Encore - Custom Wordpress Site" />
+            </a>
           </span>
           <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
+          <strong>ROLE:</strong> Frontend Developer
+            <br/>
+            <strong>TOOLS:</strong> Bitbucket, Sourcetree, Sublime Text, Wordpress
+            <br/>
+            <strong>LANGUAGES:</strong> HTML, CSS/SCSS, JS/jQuery, PHP
+            <br/>
+            Kav Encore is a simple e-catalog site built on Wordpress with product sliders and parallax banners. As the sole developer on the Kav Encore project, I developed the entirety of custom theme for the site.
+            <br/>
+            <a href="https://www.kavencore.com/" target="_blank" rel="noreferrer noopener">See Custom Wordpress E-Catalog Site</a> 
           </p>
+          <h3>Heartland Shops - Magento</h3>
+          <span className="image main">
+          <a href="https://www.heartlandshops.com/" target="_blank" rel="noreferrer noopener">
+            <img src={heartlandshops} alt="Heartland Shops - Custom Magento Site" />
+            </a>
+          </span>
           <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
+          <strong>ROLE:</strong> Frontend Developer
+            <br/>
+            <strong>TOOLS:</strong> Bitbucket, Sourcetree, Sublime Text, Google Maps API, Magento 1.9
+            <br/>
+            <strong>LANGUAGES:</strong> HTML, CSS/SCSS, JS/jQuery, PHP, CSV
+            <br/>
+            Heartland Shops is a multi-lingual e-commerce website with localization support for 2 additional languages, a custom store location page with embedded Google maps, and a sticky navigation.
+            <br/>
+            As the lead developer on the Heartland Shops project, I developed the bulk of custom theme for the site and coordinated with the client to manage a bulk CSV product import.
+            <br/>
+            <a href="https://www.heartlandshops.com/" target="_blank" rel="noreferrer noopener">See Custom Magento E-Commerce Site</a> 
+          </p>
+          <h3>Hegen US - Shopify</h3>
+          <span className="image main">
+            <a href="https://www.hegen.us/pages/ppsu" target="_blank" rel="noreferrer noopener">
+              <img src={hegenppsu} alt="Hegen US Custom Page - Practical Soft Square Bottle Design" />
+            </a>
+          </span>
+          <p>
+          <strong>ROLE:</strong> Freelance Shopify Developer
+            <br/>
+            <strong>TOOLS:</strong> Shopify, Adobe XD
+            <br/>
+            <strong>LANGUAGES:</strong> HTML, CSS, Javascript, Liquid, SVG
+            <br/>
+            As a freelance developer, I helped Hegen develop unique custom pages to highlight their product information and extend/tweak their existing theme. 
+            <br/>
+            <a href="https://www.hegen.us/pages/ppsu" target="_blank" rel="noreferrer noopener">See Custom Shopify Page</a> 
+          </p>
+          <h3>Adobe Document Cloud - Adobe Experience Manager</h3>
+          <span className="image main">
+          <a href="https://acrobat.adobe.com/us/en/" target="_blank" rel="noreferrer noopener">
+            <img src={acrobatadobe} alt="Adobe Document Cloud - Quality and Automation Engineer" />
+            </a>
+          </span>
+          <p>
+            <strong>ROLE:</strong> Quality and Automation Engineer
+            <br/>
+            <strong>TOOLS:</strong> Jenkins, Cucumber, Selenium Webdriver, MongoDB, SQL Workbench, Git, AEM 6.4/6.5
+            <br/>
+            <strong>LANGUAGES:</strong> Ruby, Python, Javascript/React, Java, XML, JSON, HTML, CSS
+            <br/>
+            As the lead quality engineer on the engineering team for Acrobat.adobe.com, I worked together with an international team to support continuous development releases and the occasional content campaign launch. I helped validate and monitor business critical features for the global website through the development and maintenance of a variety of automated tools. 
+            <br/>
+            <a href="https://acrobat.adobe.com/us/en/" target="_blank" rel="noreferrer noopener">See Site</a> 
           </p>
           {close}
         </article>
@@ -97,13 +153,13 @@ class Main extends React.Component {
             I took up web development in order to help learn how to push the boundaries of data visualization for my college newspaper and discovered a love of programming along the way. 
             <br/>
             <br/>
-            I’ve learned a lot from online resources and years of professional work on web development, quality engineering, and automation engineering on Wordpress, Magento, Shopify, and AEM. 
-            <br/>
-            <br/>
             I'm currently working through a B.S. of Computer Science at WGU, but I'm a passionate lifelong learner and creator. The web is a powerful tool for people to connect with the world and empower themselves, and I'm honored to play a part in that.
             <br/>
             <br/>
-            Aside from coding, I love dogs, musicals, illustrations, data visualization and in depth journalism.
+            My years of professional work in web development and quality+automation engineering have only fueled my passion for learning, growing, teaching, and enabling greater effiency and collaboration in the world through the power of code.
+            <br/>
+            <br/>
+            Aside from coding, I also love dogs, musicals, illustrations, data visualization and in depth journalism.
           </p>
           {close}
         </article>
